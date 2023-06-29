@@ -1,0 +1,35 @@
+*{
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+a {
+    color: #fff;
+}
+
+.background-green-01 {
+    background: rgba(33, 54, 44, 0.92);
+}
+
+.background-green-02 {
+    background: rgba(0, 152, 69, 0.85);
+}
+
+header {
+    background-image: url('/src/header-background.png');
+    color: #fff;
+}
+
+header nav {
+    position: flex;
+}
+
+.dot {
+    width: 74px;
+    height: 74px;
+    background-color: #21362C;
+}
