@@ -19,13 +19,46 @@ a {
     background: rgba(0, 152, 69, 0.85);
 }
 
+.btn-green {
+    font-size: 14px;
+    padding: 10px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 200px;
+    background-color: #009845;
+    transition: 0.5s;
+}
+
+.btn-green:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    font-weight: 600;
+}
+
 header {
     background-image: url('/src/header-background.png');
-    color: #fff;
+    color: #009845;
 }
 
 header nav {
-    position: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+header nav ul {
+    display: flex;
+    margin: 0px 190px;
+}
+
+header nav ul li {
+    margin: 10px;
+}
+
+header nav ul a:hover {
+    color: #94C11F;
+    transition: 0.5s;
 }
 
 .dot {
