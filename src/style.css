@@ -1,0 +1,275 @@
+* {
+  font-family: 'Inter', sans-serif;
+  padding:0;
+  margin:0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  color: inherit;
+}
+
+
+
+
+.ttp h3 {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.ttp h1 {
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+  font-weight: 800;
+}
+
+@media (max-width:500px) {
+  .ttp {
+    text-align: center;
+  }
+
+  .ttp h3 {
+    font-size: 1rem;
+  }
+
+  .ttp h1 {
+    font-size: 1.8rem;
+  }
+}
+
+
+
+
+
+
+.btn {
+  padding: 0.7rem 1.1rem;
+  border-radius: 100px;
+  transition: 0.3s ease;
+  color: #fff;
+}
+
+.btn:hover {
+  scale: 1.06;
+}
+
+.btn-00 {
+  background-color: #009845;
+}
+
+.btn-01 {
+  background-color: #fff;
+  color: #21362C;
+}
+
+/* header */
+
+header {
+  background: linear-gradient(0deg, rgba(33, 54, 44, 0.92) 0%, rgba(33, 54, 44, 0.92) 100%), url('/landing-page-gl-bioenergia/src/img/background-header.png'), lightgray 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* --navbar-- */
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.8rem 3rem;
+  animation: fadeIn 0.5s ease-in-out 0.2s both;
+}
+
+.nav-menu {
+  color: #ffffff8f;
+  display: flex;
+  gap: 3rem;
+}
+
+.nav-item:hover {
+  transition: 0.5s;
+  color: #fff;
+}
+
+@media (max-width:970px) {
+  nav {
+    padding: 1.5rem 2rem;
+  }
+
+  .nav-menu {
+    gap: 2rem;
+  }
+}
+
+@media (max-width:890px) {
+  nav {
+    padding: 1.5rem 2rem;
+  }
+
+  .nav-menu {
+    display: none;
+  }
+}
+
+@media (max-width:500px) {
+  .nav-menu {
+    display: none;
+  }
+
+  nav .btn {
+    display: none;
+  }
+
+  nav {
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* --header-info-- */
+
+.header-info {
+  max-width: 700px;
+  margin: 9% 4rem 0 4rem;
+}
+
+.header-info h1 {
+  color: #009845;
+  font-size: 2.7rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.header-info h1 b {
+  background-color: #009845;
+  color: #21362C;
+  font-weight: 900;
+  padding: 0 0.5rem;
+}
+
+.header-info h3 {
+  color: #fff;
+  font-weight: 300;
+  margin-bottom: 2.5rem;
+}
+
+.header-btn .btn {
+  margin-right: 0.6rem;
+}
+
+@media (max-width:500px) {
+  .header-info {
+    margin: 15% 0 0 0;
+    text-align: center;
+  }
+
+  .header-info h1 {
+    margin: 0 0.6rem 1rem 0.6rem;
+    font-size: 2rem;
+  }
+  
+  .header-info h3 {
+    font-size: 0.9rem;
+    margin: 0 0.6rem 2.5rem 0.6rem;
+  }
+  
+  .header-btn .btn {
+    margin-right: 0;
+  }
+}
+
+/*main*/
+
+/*footer*/
+
+footer {
+  background-color: #212121;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  padding: 5rem;
+}
+
+.info-footer {
+  max-width: 400px;
+}
+
+.info-footer ul {
+  display: flex;
+  gap: 0.5rem;
+}
+
+footer ul li i {
+  color: #94C11F;
+}
+
+footer .info-footer ul li i:hover {
+  color: #009845;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
